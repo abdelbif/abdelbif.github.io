@@ -1,0 +1,23 @@
+
+p.backwards{
+    -webkit-transform: rotate(180deg);text-align:left;
+    -webkit-transform:scale(1, -1);
+    -moz-transform:scale(1, -1);
+    -ms-transform:scale(1, -1);
+    -o-transform:scale(1, -1);
+    transform:scale(1, -1);
+}
+
+h1{
+    color: brown;
+    font: normal bold 2em "Courier New, Georgia, Tahoma";
+}
+
+h3 {
+    color: blue;
+    font: normal bold 2em "Arial, Arial Black, Verdana";
+}
+
+body {
+    background-color: lightblue;
+}
