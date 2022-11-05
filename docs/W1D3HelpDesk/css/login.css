@@ -10,7 +10,6 @@ a{
     width:100%;
     display:flex;
     align-content: space-between;
-    
 }
 
 /* .left{
@@ -41,8 +40,6 @@ li{
     text-align: end;
     padding: 5px;
     font-weight: bolder;
-    
-  
 }
 
 .midWrapper{
