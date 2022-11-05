@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/login.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="./css/lib/bootstrap.css" />
+    <script defer src="./js/lib/bootstrap.js"></script> -->
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="mainWrapper">
+      <div class="upperWrapper">
+        <div class="leftUpChild">
+          <!-- <div class="leftUpChildLeft"> -->
+          <div class="logoDiv">
+            <img
+              src="./images/cmpLogo_n.jpg"
+              alt="ComproLogo"
+              style="width: 30px"
+            />
+          </div>
+          <!-- </div> -->
+          <div class="logoTitleDiv">
+            <p>Compro Help Desk</p>
+          </div>
+        </div>
+        <div class="rightUpChild">
+          <ul>
+            <li><a href="#">Agent Portal</a></li>
+            <li><a href="#">Submit Ticket</a></li>
+            <li><a href="#">Knowledge base</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="midWrapper">
+        <h1>Welcome to our Support Center</h1>
+      </div>
+
+      <div class="bottomWrapper">
+        <div class="leftBottomChild">
+          <div class="smallDiv">
+            <div class="leftBottomChildUpper">
+              <h2>Login</h2>
+              <h5>Login to know the status of the ticket</h5>
+              <img src="./images/azure.PNG" alt="azure" />
+            </div>
+            <h4>or login using</h4>
+            <div class="leftBottomChildBottom">
+              <form action="/action_page.php">
+                <label for="UsernameOrEmail">Username or Email:</label><br />
+                <input
+                  class="inputForm"
+                  type="text"
+                  id="UsernameOrEmail"
+                  placeholder="Enter email"
+                  name="UsernameOrEmail"
+                  value=""
+                /><br />
+                <label for="Password">Password:</label><br />
+                <input
+                  class="inputForm"
+                  type="text"
+                  id="Password"
+                  name="Password"
+                  placeholder="Enter password"
+                  value=""
+                />
+
+
+                <input
+                  type="checkbox"
+                  id="rememberme"
+                  name="rememberme"
+                  value="Boat"
+                />
+                <label for="rememberme"> Remember Me</label><br />
+
+                <span class="forgot">Forgot password?</span>
+            
+                <button class="loginBtn">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="rightBottomChild">
+            <div class="rightContent">
+                <p>
+            Login to track your existing support requests. If you have not
+            created a ticket yet, then you would need to
+            <a href="#">create</a> or <a href="#">create a new ticket</a> to
+            begin.
+          </p>
+          <br />
+          <form action="/action_page.php">
+            <button>Submit ticket</button>
+          </form>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <footer>
+        <section>
+            <h5>HTML5 Validator W3C and CSS validator</h5>
+            <a target="_blank" href="https://validator.w3.org/nu/?doc=https://abdelbif.github.io/W1D3HelpDesk/loginWebPage.html"> 
+                <img src="./images/w3c-html5-logo.png"alt="html validator">
+            </a>
+            <a target="_blank" href="https://jigsaw.w3.org/css-validator/validator?uri=https://abdelbif.github.io/W1D3HelpDesk/loginWebPage.html"> 
+                <img src="./images/w3c-css.png"alt="css validator">
+            </a>
+        </section>
+    </footer>
+  </body>
+</html>
