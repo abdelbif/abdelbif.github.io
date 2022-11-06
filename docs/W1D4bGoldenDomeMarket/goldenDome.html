@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/goldenDome.css" rel="stylesheet">
+    <title>GoldenDomeMarket</title>
+</head>
+<body>
+    <div class="outerDiv">
+        <div class="upperDiv">
+            <div class="system">
+                <p>MUM Golden Dome Market:::SRM System</p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#" alt="Products">Products</a></li>
+                    <li><a href="#" alt="Suppliers">Suppliers</a></li>
+                </ul>    
+            </div>
+            <div class="hello">
+                <span>Hello!</span>
+                <button class="SignOutBttn"> Sign Out</button>
+            </div>
+        </div>
+        <div class="newProductForm">
+            <div class="leftWrapper">
+                <h5>New Product Form</h5>
+                <div class="left">
+                    <form action="/action_page.php">
+                        <label for="productNumber">Product Number</label><br>
+                        <input
+                        class="inputForm"
+                        type="text"
+                        id="productNumber"
+                        name="productNumber"
+                        value=""
+                        ><br>
+
+                        <label for="name">Name</label><br>
+                        <input
+                        class="inputForm"
+                        type="text"
+                        id="productName"
+                        name="productName"
+                        value=""
+                        ><br>
+
+                        <label for="unitPrice">Unit Price</label><br>
+                        <input
+                        class="inputForm"
+                        type="text"
+                        id="unitPrice"
+                        name="unitPrice"
+                        placeholder="0.0"
+                        value=""
+                        ><br>
+                    </form>
+                </div>
+            </div>
+            <div class="rightWrapper">  
+                <div class="right">
+                    <form action="/action_page.php">
+                        <label for="quantityInStock">Quantity in stock</label><br>
+                        <input
+                        class="inputForm"
+                        type="text"
+                        id="quantityInStock"
+                        name="quantityInStock"
+                        placeholder="0"
+                        value=""
+                        ><br>
+
+                        <label for="supplier">Select a supplier</label><br>
+                        <select name="supplier" id="supplier" class="inputForm">
+                            <option>Select a supplier</option>
+                            <option>Amazon</option>
+                            <option>Walmart</option>
+                            <option>HomeDepot</option>
+                        </select>
+                        
+                        <!-- name="supplier"
+                        placeholder="select a supplier"
+                        value="" -->
+                        <br>
+
+                        <label for="dateSupplied">Date supplied</label><br>
+                        <input
+                        class="inputForm"
+                        type="date"
+                        id="dateSupplied"
+                        placeholder="yyyy-mm-dd"
+                        name="dateSupplied"
+                        value=""
+                        >
+                        <span class="valDate">Enter a valid date</span>
+                    </form>
+                    
+                </div>
+            </div>    
+        </div>
+        <div class="lowerDiv">
+            <form action="/action_page.php">
+                <button class="resetBttn">Reset</button>
+                <button class="cancelBttn">Cancel</button>
+                <button class="addProductBttn">Add Product</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

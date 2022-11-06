@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/studentLogin.css">
+    <title>Webform</title>
+</head>
+<body>
+    <div class="outdiv">
+      <div class="indiv">
+        <form action="/action_page.php">
+          <label for="EmailAddress">Email address</label>
+          <input
+            class="inputForm"
+            type="text"
+            id="EmailAddress"
+            placeholder="Enter email"
+            name="EmailAddress"
+            value=""
+          ><br>
+
+          <p>We'll never share your email with anyone else.</p>
+          <br>
+          <label for="Password">Password</label><br>
+          <input
+            class="inputForm"
+            type="text"
+            id="Password"
+            name="Password"
+            placeholder="Enter password"
+            pattern="(?=\d+)(?=[a z]*)(?=[A Z]*).{10,}"
+            title="Must contain at least one number, one upcase letter
+            , one lowercase letter and at least 8 or more characters"
+            value=""
+          ><br>
+
+          <label for="Password">URL</label><br>
+          <input
+            class="inputForm"
+            type="url"
+            id="url"
+            name="url"
+            placeholder="Enter a URL"
+            pattern="https?://.+"
+            title="Please enter a URL"
+            value=""
+          ><br>
+
+          <input
+            type="checkbox"
+            id="checkMeOut"
+            name="checkMeOut"
+            value="Boat"
+          >
+          <label for="checkMeOut"> Check me out</label><br>
+
+          <!-- <span class="forgot">Forgot password?</span> -->
+      
+          <button class="submitBtn">Submit</button>
+        </form>
+      </div>
+    </div>
+    
+</body>
+</html>
