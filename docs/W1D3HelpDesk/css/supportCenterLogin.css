@@ -40,6 +40,7 @@ li{
     text-align: end;
     padding: 5px;
     font-weight: bolder;
+    
 }
 
 .midWrapper{
@@ -72,9 +73,9 @@ h1{
 .rightBottomChild{
     flex:3;
     height: 100px;
-   
     margin:10px;
 }
+
 .rightBottomChild  a{
 color: #588BCA;
 
