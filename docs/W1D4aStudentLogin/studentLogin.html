@@ -10,11 +10,11 @@
 <body>
     <div class="outdiv">
       <div class="indiv">
-        <form action="/action_page.php">
+        <form >
           <label for="EmailAddress">Email address</label>
           <input
             class="inputForm"
-            type="text"
+            type="email"
             id="EmailAddress"
             placeholder="Enter email"
             name="EmailAddress"
@@ -30,7 +30,7 @@
             id="Password"
             name="Password"
             placeholder="Enter password"
-            pattern="(?=\d+)(?=[a z]*)(?=[A Z]*).{10,}"
+            pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}"
             title="Must contain at least one number, one upcase letter
             , one lowercase letter and at least 8 or more characters"
             value=""
