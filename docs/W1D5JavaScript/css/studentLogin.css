@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif
+}
+
+.outdiv{
+    margin: 80px;
+}
+
+.inDiv{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+   
+}
+
+.inputForm{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right:10px ;
+    border-color: antiquewhite;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.674);
+    border-radius: 5px;
+    border-color: #fff;
+    color: white;
+    padding: 5px;
+    width: 15%;
+}
+
+p{
+    font-size: 13px;
+    color:gray;
+}
