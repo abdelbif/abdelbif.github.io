@@ -19,14 +19,14 @@ function isVowel(str){
 function sum(arr){
     if(!Array.isArray(arr) || arr.length == 0) return false;
     let res = 0;
-    for(var i = 0; i < arr.length; i++) res += arr[i];
+    for(let i = 0; i < arr.length; i++) res += arr[i];
     return res;
 }
 //Question 4b
 function multiply(arr){
     if(!Array.isArray(arr) || arr.length == 0) return false;
     let res = 1;
-    for(var i = 0; i < arr.length; i++) res *= arr[i];
+    for(let i = 0; i < arr.length; i++) res *= arr[i];
     return res;
 }
 //Question 5
@@ -53,7 +53,13 @@ function filterLongWords(arr, arrSize){
         if(String(arr[i]).length > arrSize) res.push(arr[i]);
     }
     return res.toString();
+
 }
+
+//  const filterLongWords = (arr,i) => arr
+//     .filter(x => x.length > i)
+
+
 //Question 8
 const computeSumOfSquares = arr => arr
     .map(x => x * x)
@@ -87,7 +93,7 @@ function findSecondBiggest(arr){
     if(arr.length == 2) return (Math.max(arr[0], arr[1]));
     let biggest = -Infinity;
     let secondBig = arr[0];
-    for(var i = 0; i < arr.length; i++){
+    for(let i = 0; i < arr.length; i++){
         if(arr[i] > biggest) biggest = arr[i];
         if(biggest < secondBig){// swap
             let temp = biggest;
