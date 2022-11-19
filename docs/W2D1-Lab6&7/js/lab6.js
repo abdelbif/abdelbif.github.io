@@ -1,3 +1,5 @@
+"use strict"
+
 //Question 1
 
 //Details on picture
