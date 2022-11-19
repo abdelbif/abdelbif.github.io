@@ -1,6 +1,6 @@
 //"use strict"
 
-class Person{
+export class Person{
     #name = null;
     #dateOfBirth = null;
 
@@ -10,7 +10,7 @@ class Person{
     }
 
     getName(){
-        return this.#getName;
+        return this.#name;
     }
 
     setName(name){
@@ -20,12 +20,11 @@ class Person{
     getDateOfBirth(){
         return this.#dateOfBirth;
     }
-     setDateOfBirth(dateOfBirth){
+    setDateOfBirth(dateOfBirth){
         this.#dateOfBirth = dateOfBirth
     }
     
     toString(){
-        return `Name: ${this.#name},
-                DOB: ${this.#dateOfBirth}`
+        return `Name: ${this.#name}, DOB: ${this.#dateOfBirth}`
     }
 }

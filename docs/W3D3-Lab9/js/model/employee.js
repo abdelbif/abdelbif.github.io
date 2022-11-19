@@ -1,5 +1,6 @@
+import {Person} from "./person.js";
 
-class Employee extends Person{
+export class Employee extends Person{
     constructor(name, dateOfBirth, salary, hireDate){
         super(name, dateOfBirth);
         this.salary = salary;
@@ -7,7 +8,6 @@ class Employee extends Person{
     }
 
     doJob(jobTitle){
-        console.log(`${Employee.getName()} is a ${jobTitle} 
-        who earns ${Employee.salary}`);
+        console.log(`${this.name} is a ${jobTitle} who earns ${this.salary} bucks.`);
     }
 }
