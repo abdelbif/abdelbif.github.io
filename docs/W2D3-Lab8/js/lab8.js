@@ -2,7 +2,7 @@
 
 //Question 1.
 
-let person={
+let person = {
     name: '',
     dateOfBirth: null,
 
